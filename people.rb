@@ -26,3 +26,10 @@ chris.greeting
 
 christina = Student.new("Christina")
 christina.greeting
+
+chris.teach
+christina.learn
+
+christina.teach
+
+# the .teach method will not work on the student instance because that method was not defined in the student class. 
