@@ -8,7 +8,7 @@ class Person
 	end
 end
 
-class Student
+class Student < Person
 	def learn
 		puts "I get it!"
 	end
@@ -23,3 +23,6 @@ end
 
 chris = Instructor.new("Chris")
 chris.greeting
+
+christina = Student.new("Christina")
+christina.greeting
